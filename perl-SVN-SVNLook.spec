@@ -1,7 +1,7 @@
 %define module  SVN-SVNLook
 %define name    perl-%{module}
-%define version 0.03
-%define release %mkrel 4
+%define version 0.04
+%define release %mkrel 1
 
 Name:           %{name}
 Version:        %{version}
