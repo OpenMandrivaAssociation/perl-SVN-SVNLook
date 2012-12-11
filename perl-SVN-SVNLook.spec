@@ -45,3 +45,45 @@ rm -rf %{buildroot}
 %doc Changes README
 %{perl_vendorlib}/SVN
 %{_mandir}/*/*
+
+
+%changelog
+* Wed Jul 29 2009 Jérôme Quelin <jquelin@mandriva.org> 0.40.0-1mdv2010.0
++ Revision: 404428
+- rebuild using %%perl_convert_version
+
+* Thu Jul 31 2008 Thierry Vignaud <tvignaud@mandriva.com> 0.04-4mdv2009.0
++ Revision: 258421
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tvignaud@mandriva.com> 0.04-3mdv2009.0
++ Revision: 246486
+- rebuild
+
+* Wed Jan 02 2008 Olivier Blin <oblin@mandriva.com> 0.04-1mdv2008.1
++ Revision: 140717
+- restore BuildRoot
+
+  + Thierry Vignaud <tvignaud@mandriva.com>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Wed Aug 22 2007 Guillaume Rousse <guillomovitch@mandriva.org> 0.04-1mdv2008.0
++ Revision: 69248
+- update to new version 0.04
+
+
+* Tue Aug 29 2006 Guillaume Rousse <guillomovitch@mandriva.org> 0.03-4mdv2007.0
+- Rebuild
+
+* Tue Jan 03 2006 Nicolas L�cureuil <neoclust@mandriva.org> 0.03-3mdk
+- Add BuildRequires
+
+* Tue Jan 03 2006 Guillaume Rousse <guillomovitch@mandriva.org> 0.03-2mdk
+- fix files encoding and perms
+
+* Tue Jan 03 2006 Guillaume Rousse <guillomovitch@mandriva.org> 0.03-1mdk
+- New release 0.03
+
+* Wed Dec 28 2005 Guillaume Rousse <guillomovitch@mandriva.org> 0.02-1mdk
+- first mdk release
+
